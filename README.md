@@ -1,23 +1,23 @@
-# Project Title
+# Watching storage
 
-One Paragraph of project description goes here
+This is a simple django-site for educational purposes to learn how to use [django-orm](https://docs.djangoproject.com/en/3.0/topics/db/).
 
 ## Prerequisites
 
-What things you need to install the software and how to install them
-
-```bash
-Give examples
-```
+`python3` should already be installed.
 
 ## How to install
 
-A step by step series of examples that tell you how to get a development env running
+- `git clone https://github.com/nicko858/watching-storage.git`
+- `cd watching-storage`
+- `pip install -r requirements.txt`
 
 ## How to run
 
-Explain how to run the program
+`python3 main.py`
+
+The site will be available at `http://localhost:8000`
 
 ## Project Goals
 
-Explain the project goals
+The code is written for educational purposes on online-course for web-developers [dvmn.org](https://dvmn.org/).
