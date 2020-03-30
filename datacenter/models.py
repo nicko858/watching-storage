@@ -37,7 +37,7 @@ class Visit(models.Model):
             delta = self.leaved_at - self.entered_at
         else:
             delta = now - self.entered_at
-        seconds = delta.seconds
+        seconds = delta.total_seconds()
         hours = seconds // 3600
         minutes = (seconds % 3600) // 60
         return (hours, minutes)
