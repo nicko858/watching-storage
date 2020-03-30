@@ -43,9 +43,7 @@ class Visit(models.Model):
 
     def is_long(self, limit=60):
         _, minutes = self.get_duration()
-        if int(minutes) >= limit:
-            return True
-        return False
+        return int(minutes) >= limit
 
 
 def format_duration(duration):
