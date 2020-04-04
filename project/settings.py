@@ -1,6 +1,7 @@
 import os
 from os import getenv
 from dotenv import load_dotenv
+from distutils.util import strtobool
 
 load_dotenv()
 
@@ -20,7 +21,7 @@ INSTALLED_APPS = ['datacenter']
 
 SECRET_KEY = 'REPLACE_ME'
 
-DEBUG = True
+DEBUG = strtobool(getenv('DEBUG_LEVEL'))
 
 ROOT_URLCONF = "project.urls"
 
