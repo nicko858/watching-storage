@@ -14,7 +14,7 @@ This is a simple django-site for educational purposes to learn how to use [djang
 
 ## How to run
 
-`python3 main.py`
+`python3 manage.py runserver 0.0.0.0:8000`
 
 The site will be available at `http://localhost:8000`
 
